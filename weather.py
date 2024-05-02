@@ -16,7 +16,7 @@ def get_data(city):
     Return: returns the list of dictionaries
     """
 
-    key = "db6c69232bc28f6b9ef6557e6db67cc9"
+    key = ""
     url = "http://api.openweathermap.org/data/2.5/weather"
     params = {"q": city,
               "appid": key,
